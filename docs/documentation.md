@@ -6,7 +6,7 @@ YAML configurations were used to specify services, images, environment variables
 #OTX Integration:
 The AlienVault OTX connector was configured to retrieve community threat intelligence and indicators and feed them into the OpenCTI.
 The connector was validated through Docker logs showing OTX pulses being processed and bundled before being sent into the OpenCTI processing pipeline.
-##Example workflow:
+#Example workflow:
 AlienVault OTX —> OTX connector —-> OpenCTI processing pipeline —-> Threat intelligence objects —-> Actors/ Malware/ Infrastructure/ Indicators/ Relationships
 #Threat Landscape Analysis
 ##The assessment focused on threats relevant to telecommunications, including:
@@ -46,7 +46,7 @@ The Kill Chain provided the high-level attack progression, while MITRE ATT&CK pr
 #Diamond Model:
 ##Selected incidents were analyzed using the four components of the Diamond Model:
 Adversary —-> Capability —-> Infrastructure —--> Victim
-This helped establish relationships between:
+##This helped establish relationships between:
 - Who conducted the activity
 - What capabilities/tools were used
 - What infrastructure was involved

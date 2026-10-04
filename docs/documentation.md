@@ -4,7 +4,7 @@ OpenCTI was deployed in a docker environment on Kali Linux.
 Docker compose was used to define and manage the OpenCTI services. 
 YAML configurations were used to specify services, images, environment variables, credentials, and connector configurations.
 
-OTX Integration:
+##OTX Integration:
 The AlienVault OTX connector was configured to retrieve community threat intelligence and indicators and feed them into the OpenCTI.
 The connector was validated through Docker logs showing OTX pulses being processed and bundled before being sent into the OpenCTI processing pipeline.
 

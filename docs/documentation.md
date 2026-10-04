@@ -9,7 +9,7 @@ The connector was validated through Docker logs showing OTX pulses being process
 #Example workflow:
 AlienVault OTX —> OTX connector —-> OpenCTI processing pipeline —-> Threat intelligence objects —-> Actors/ Malware/ Infrastructure/ Indicators/ Relationships
 #Threat Landscape Analysis
-##The assessment focused on threats relevant to telecommunications, including:
+#The assessment focused on threats relevant to telecommunications, including:
 - State-sponsored cyber espionage
 - Exploitation of internet-facing systems
 - Credential theft
@@ -19,7 +19,7 @@ AlienVault OTX —> OTX connector —-> OpenCTI processing pipeline —-> Threat
 - Phishing and Business Email Compromise
 - DDoS attacks
 - Abuse of legitimate cloud services for Command and Control
-##Threat actors investigated included:
+#Threat actors investigated included:
 - GALLIUM
 - APT41
 - UNC6619
@@ -28,7 +28,7 @@ AlienVault OTX —> OTX connector —-> OpenCTI processing pipeline —-> Threat
 - Salt Typhoon
 #MITRE ATT&CK Analysis
 MITRE ATT&CK was used to identify the specific techniques associated with threat actors.
-##Examples included:
+#Examples included:
 - Exploitation of Public-Facing Application
 - Valid Accounts
 - Remote Services
@@ -44,15 +44,15 @@ Reconnaissance —> Weaponization —-> Delivery —-> Exploitation —--> Insta
 MITRE ATT&CK and the Cyber Kill Chain were used together rather than as competing frameworks.
 The Kill Chain provided the high-level attack progression, while MITRE ATT&CK provided the specific attacker techniques used within those stages.
 #Diamond Model:
-##Selected incidents were analyzed using the four components of the Diamond Model:
+#Selected incidents were analyzed using the four components of the Diamond Model:
 Adversary —-> Capability —-> Infrastructure —--> Victim
-##This helped establish relationships between:
+#This helped establish relationships between:
 - Who conducted the activity
 - What capabilities/tools were used
 - What infrastructure was involved
 - Who was targeted
 #Key Findings
-##The assessment identified several recurring patterns in telecommunications attacks:
+#The assessment identified several recurring patterns in telecommunications attacks:
 - Internet-facing infrastructure is a major attack surface.
 - Attackers can exploit vulnerabilities in public-facing applications, VPNs, management systems, and network infrastructure.
 - Legitimate administrative tools can be abused.
@@ -66,7 +66,7 @@ Adversary —-> Capability —-> Infrastructure —--> Victim
 
 
 #Security Recommendations
-##Based on the assessment, CYV should prioritize:
+#Based on the assessment, CYV should prioritize:
 - MFA for remote and privileged access
 - Rapid patching of internet-facing systems
 - Network segmentation
@@ -78,7 +78,7 @@ Adversary —-> Capability —-> Infrastructure —--> Victim
 - Regular threat-intelligence enrichment
 - Incident response and containment procedures
 #Skills Demonstrated
-##This project demonstrates practical experience with:
+#This project demonstrates practical experience with:
 - Cyber Threat Intelligence
 - OpenCTI
 - AlienVault OTX

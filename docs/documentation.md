@@ -28,6 +28,7 @@ Threat actors investigated included:
 - Funnull
 - SloppyLemming
 - Salt Typhoon
+  
 ##MITRE ATT&CK Analysis:
 MITRE ATT&CK was used to identify the specific techniques associated with threat actors.
 Examples included:
@@ -40,11 +41,13 @@ Examples included:
 - Phishing
 - Data Exfiltration
 MITRE ATT&CK provided the technical detail needed to understand how attackers performed different stages of an intrusion.
+
 ##Cyber Kill Chain Analysis:
 The Cyber Kill Chain was used to understand the broader progression of an attack.
 Reconnaissance —> Weaponization —-> Delivery —-> Exploitation —--> Installation —-> Command and Control (C2) —-> Actions on objectives
 MITRE ATT&CK and the Cyber Kill Chain were used together rather than as competing frameworks.
 The Kill Chain provided the high-level attack progression, while MITRE ATT&CK provided the specific attacker techniques used within those stages.
+
 ##Diamond Model:
 Selected incidents were analyzed using the four components of the Diamond Model:
 Adversary —-> Capability —-> Infrastructure —--> Victim
@@ -52,7 +55,8 @@ This helped establish relationships between:
 - Who conducted the activity
 - What capabilities/tools were used
 - What infrastructure was involved
-- Who was targeted
+- Who was targeted.
+  
 ##Key Findings:
 The assessment identified several recurring patterns in telecommunications attacks:
 - Internet-facing infrastructure is a major attack surface.
@@ -79,6 +83,7 @@ Based on the assessment, CYV should prioritize:
 - Endpoint detection and response
 - Regular threat-intelligence enrichment
 - Incident response and containment procedures
+
 ##Skills Demonstrated:
 This project demonstrates practical experience with:
 - Cyber Threat Intelligence
@@ -95,6 +100,7 @@ This project demonstrates practical experience with:
 - Incident Response
 - Threat Landscape Research
 - Cybersecurity Risk Assessment
+
 ##Conclusion:
 This project demonstrated how threat intelligence can be collected, enriched, structured, and analyzed to understand threats against a telecommunications organization.
 The key lesson was that effective CTI goes beyond identifying individual malware. It involves connecting adversaries, capabilities, infrastructure, victims, indicators, and attack techniques to produce intelligence that can support detection, investigation, and defensive decision-making.
